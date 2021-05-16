@@ -1,0 +1,9 @@
+.material-icons{
+    line-height:unset !important;
+}
+
+body{
+    width:100%;
+    overflow-x: hidden;
+    background-color:#EAEDED !important;
+}

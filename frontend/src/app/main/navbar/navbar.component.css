@@ -1,0 +1,22 @@
+.category-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    height:100%;
+}
+
+.h-60{
+    min-height: 40px;
+}
+
+.color{
+    background-color: #16202b;
+    color: white;
+}
+
+.color a{
+    color: white;
+}
