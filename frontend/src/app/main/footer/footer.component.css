@@ -1,0 +1,50 @@
+.footer-nav{
+    background-color: #1b1f3a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
+}
+
+.region{
+    background-color: #191a35;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    background-color: #041529;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list a{
+    text-decoration:none;
+    color:white;
+}
+
+.footer-list a:hover{
+    text-decoration:underline;
+}
+
+.get-to-us{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.address, .mail-us{
+    padding: 0 20px !important;
+}
+

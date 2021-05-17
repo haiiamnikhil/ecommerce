@@ -1,0 +1,28 @@
+<div class="row mb-3">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h2>Shop by Category</h2>
+            </div>
+            <div class="card-body body-content d-flex align-items-center">
+                <!-- | loaditems:10:selectedIndex:finalIndex -->
+                <div class="card items" *ngFor="let item of items">
+                    <img src="{{item.image}}" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-text text-center"><h3>{{item.productName}}</h3></div>
+                    </div>
+                </div>
+                <button class="btn btn-pos-prev" (click)="prevButton($event)">
+                    <span class="material-icons-outlined">
+                        arrow_back_ios
+                        </span>
+                </button>
+                <button class="btn btn-pos-next" (click)="nextButton($event)">
+                    <span class="material-icons-outlined">
+                        arrow_forward_ios
+                        </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

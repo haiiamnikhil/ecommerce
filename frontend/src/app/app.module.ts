@@ -18,6 +18,9 @@ import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { BannerComponent } from './main/body/banner/banner.component';
 import { LatestproductsComponent } from './main/body/latestproducts/latestproducts.component';
 import { OffersComponent } from './main/body/offers/offers.component';
+import { ShopbycategoryComponent } from './main/body/shopbycategory/shopbycategory.component';
+import { LoaditemsPipe } from './pipes/loaditems/loaditems.pipe';
+import { BestoffersComponent } from './main/body/bestoffers/bestoffers.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { OffersComponent } from './main/body/offers/offers.component';
     SidenavComponent,
     BannerComponent,
     LatestproductsComponent,
-    OffersComponent
+    OffersComponent,
+    ShopbycategoryComponent,
+    LoaditemsPipe,
+    BestoffersComponent,
   ],
   imports: [
     BrowserModule,
