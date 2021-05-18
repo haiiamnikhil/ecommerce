@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LatestproductsComponent implements OnInit {
 
-  constructor() { }
+  scrollValue:any
+
+  constructor() {}
 
   ngOnInit(): void {
   }
 
+  nextButton(event:any){
+    let scrollElement = event.srcElement.parentElement.parentElement
+    scrollElement.scrollLeft += 500;
+    this.scrollValue = scrollElement.scrollLeft;
+  }
+  
+  prevButton(event:any){
+    let scrollElement = event.srcElement.parentElement.parentElement
+    scrollElement.scrollLeft -= 500;
+    this.scrollValue = scrollElement.scrollLeft;
+  }
 }
+

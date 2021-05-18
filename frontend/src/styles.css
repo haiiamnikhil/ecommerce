@@ -1,9 +1,159 @@
-.material-icons{
-    line-height:unset !important;
+/* html */
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #eaeded !important;
 }
 
-body{
-    width:100%;
-    overflow-x: hidden;
-    background-color:#EAEDED !important;
+/* ////////////////////////////////////// */
+
+/* Flex */
+
+.fi-ac{
+  display: flex;
+  align-items: center;
 }
+
+.fi-inline-ac{
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fi-dr-rw{
+  flex-direction: row !important;
+}
+
+.fi-dr-cl{
+  flex-direction: column;
+}
+
+
+/* ////////////////////////////////// */
+
+/* Height and Width */
+
+.mxh-480{
+  max-height: 480px;
+}
+
+.mnh-400{
+  min-height: 400px;
+}
+
+.mxh-325{
+max-height: 325px;
+}
+
+/* ///////////////////////////// */
+
+
+/* card */
+
+.card {
+  border: unset !important;
+}
+
+.card-header {
+  background-color: white !important;
+}
+
+/* ///////////////////////////////////////// */
+
+/* Body Content */
+
+.body-content .items .card-image-top{
+  width: auto;
+  height: auto;
+  max-width: 270px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+
+.body-content .items{
+  text-align: center;
+  position: relative;
+  min-width: 200px;
+}
+
+.body-content {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 0 20px 0 20px;
+}
+
+.body-content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  scroll-behavior: smooth;
+}
+
+/* .body-content .items {
+  min-width: 250px;
+} */
+/* ///////////////////////////////////////////////////// */
+
+
+/* Button and icons */
+
+.material-icons {
+  line-height: unset !important;
+}
+
+.body-content .nav-btn{
+  padding: 0;
+  width: 45px;
+  }
+  
+  .body-content .nav-btn span{
+  height:100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  }
+  .body-content:hover .btn-pos-next {
+    visibility: visible;
+    opacity: 1;
+  }
+  .body-content:hover .btn-pos-prev {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+.body-content .btn-pos-prev {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  float: left;
+  left: 0;
+  background: white;
+  height: 100px;
+  box-shadow: -3px 0px 10px 2px #c7c7c7;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.body-content .btn-pos-next {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  float: right;
+  right: 0;
+  background: white;
+  height: 100px;
+  box-shadow: 3px 0px 10px 2px #c7c7c7;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+/* ////////////////////////////////////////// */
+
+/* Image */
+
+.img-thumbnail{
+    max-width: 50% !important;
+    border: unset !important;
+}
+
+/* ///////////////////////////// */

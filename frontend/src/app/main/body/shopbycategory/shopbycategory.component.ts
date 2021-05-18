@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { nextButton, prevButton } from '../../../global.functions';
 
 @Component({
   selector: 'shopbycategory',
@@ -12,6 +13,7 @@ export class ShopbycategoryComponent implements OnInit {
   finalIndex:number = 10;
   presentData:any = []
   scrollValue:number = 0;
+
   constructor() { }
 
   ngOnInit(){
@@ -63,82 +65,7 @@ export class ShopbycategoryComponent implements OnInit {
         'image':'assets/category/styling.png',
         'productName':'Greocerry',
         'price':50
-      },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods1',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods2',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods3',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods4',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods5',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods1',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods2',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods3',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods4',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods5r wer',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Pods1werar',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Podsewr we',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Podsefewre',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Podsdasdas',
-      //   'price':50
-      // },
-      // {
-      //   'image':'assets/products/Galaxy Buds Live_product image (5).jpg',
-      //   'productName':'Galaxy Air Podsdasdsa',
-      //   'price':50
-      // }
+      }
     ]
   }
 
